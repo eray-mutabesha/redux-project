@@ -5,13 +5,15 @@ import './index.css'
 // redux
 import { Provider } from 'react-redux'    
 import { configureStore } from '@reduxjs/toolkit'
-import rootReducer from './reducer'
+import rootReducer from './reducer/Index.jsx'
+import { getPosts } from './action/Action.post.jsx'
 
 
 const store=configureStore({
   reducer:rootReducer,
   devTools:true,
 })
+store.dispatch(getPosts())
 ReactDOM.createRoot(document.getElementById('root')).render(
  <Provider store={store}>
    <App/>
