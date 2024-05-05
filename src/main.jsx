@@ -14,6 +14,7 @@ const store=configureStore({
   devTools:true,
 })
 store.dispatch(getPosts())
+
 ReactDOM.createRoot(document.getElementById('root')).render(
  <Provider store={store}>
    <App/>
