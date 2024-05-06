@@ -7,6 +7,7 @@ import { Provider } from 'react-redux'
 import { configureStore } from '@reduxjs/toolkit'
 import rootReducer from './reducer/Index.jsx'
 import { getPosts } from './action/Action.post.jsx'
+import { getPost } from './action/User.action.jsx'
 
 
 const store=configureStore({
@@ -14,7 +15,7 @@ const store=configureStore({
   devTools:true,
 })
 store.dispatch(getPosts())
-
+store.dispatch(getPost())
 ReactDOM.createRoot(document.getElementById('root')).render(
  <Provider store={store}>
    <App/>
