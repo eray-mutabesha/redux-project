@@ -10,14 +10,28 @@ function App() {
   return (
     <>
        <Form/>
+       <div className='all_flex'>
+     
+       <div className='all_post_div'>
+        <div>
+        <h1>{posts.titre}</h1>
+        </div>
        <div>
-       <h1>posts</h1>
-       <div>
-         <h1>{posts.titre}</h1>
+         <h2></h2>
         <p>{posts.post}</p> 
        </div>
-
+       <div className='like_and_delete_images_div'>
+        <img src="public\images\black_like.png" alt="likeImage" />
+        <img src="public\images\deleteimage.png" alt="likeImage" />
        </div>
+       </div>
+       <div className='auteur_div'>
+          <img src="public\images\erayphoto.jpg" alt="profil" />
+          <h2>Eratata</h2>
+          <h3>Likes:35</h3>
+        </div>
+       </div>
+      
     </>
   )
 }

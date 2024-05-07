@@ -4,8 +4,8 @@ function Form() {
   return (
     <div>
       <form action="">
-        <input type="text" name="" id="" placeholder='titre du post'/>
-        <textarea name="" id="" cols="30" rows="10" placeholder='contenu du poste'></textarea>
+        <input type="text" name=""  placeholder='Titre'/>
+        <textarea name="" id="" cols="30" rows="10" placeholder='Article'></textarea>
       </form>
     </div>
   )
