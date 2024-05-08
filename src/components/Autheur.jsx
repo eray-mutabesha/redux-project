@@ -7,7 +7,7 @@ function Autheur({user}) {
     <div className='auteur_div'>
     <img src="public\images\erayphoto.jpg" alt="profil" />
     <h2>{user.username}</h2>
-    <h3>{user.Like}</h3>
+    <h3>Like{user.Like>1?"s":""}:{user.Like}</h3>
   </div>
   )
 }

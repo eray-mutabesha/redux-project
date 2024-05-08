@@ -1,4 +1,4 @@
-import { GET_POST } from "../action/Action.post";
+import { GET_POST,ADD_POST } from "../action/Action.post";
 
 const initialeState={}
 export default function postReducer(state= initialeState,action){
@@ -6,7 +6,10 @@ export default function postReducer(state= initialeState,action){
   switch(action.type){
     case GET_POST:
       return action.payload;
-      default : return state;
+    
+    case ADD_POST:
+        return [action.payload, ...state];
+        default : return state;
   }
 
 }

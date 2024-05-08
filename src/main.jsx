@@ -16,6 +16,7 @@ const store=configureStore({
 })
 store.dispatch(getPosts())
 store.dispatch(getPost())
+
 ReactDOM.createRoot(document.getElementById('root')).render(
  <Provider store={store}>
    <App/>
