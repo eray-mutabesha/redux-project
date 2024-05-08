@@ -3,13 +3,23 @@
         {
             "titre":"actualite du jours",
             "post":"exercitationem nostrum quaerat atque nobis beatae nemo perspiciatis exercitationem nostrum quaerat atque nobis beatae nemo perspiciatis totam.totam.exercitationem nostrum quaerat atque nobis beatae nemo perspiciatis totam.exercitationem nostrum quaerat atque nobis beatae nemo perspiciatis totam."
+        },
+        {
+            "titre":"Nouveau",
+            "post":"exeostrum quaerat atqueuaerat atque neciatis totam."
         }
+      
     ],
     "user":[
         {
             "username":"Robert du bois",
             "age":"21",
             "Like":35
+        },
+        {
+            "username":"Musa",
+            "age":"21",
+            "Like":37
         }
     ]
 }

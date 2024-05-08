@@ -14,28 +14,15 @@ form input{
     padding: 5px;
 }
 .all_post_div{
+    
     box-shadow: 0px 0px 10px 0px black;
-    text-align: justify;
-    padding: 10px;
+    text-align: center;
 }
-.all_flex{
- 
-    display: flex;
-    justify-content:center;
-    gap: 30px;
-    width: 50%;
-    margin:50px auto;
-}
-.all_flex img{
-    width: 100px;
-    height: 100px;
-}
+
 .auteur_div{
-    height: fit-content;
-    padding:5px;
+    margin-top: 65px;
     box-shadow: 0px 0px 10px 0px black;
-    margin-top: auto;
-    margin-bottom: auto;
+    text-align: center;
 }
 .like_and_delete_images_div{
     display: flex;
@@ -47,4 +34,18 @@ form input{
   height: 50px;
   object-fit: cover;
   
+}
+.auteur_div img{
+    width: 100px;
+    height: 100px;
+}
+.elements{
+    border: 1px solid green;
+    display: grid;
+    grid-template-columns: 70% 20%;
+  
+}
+.elements section{
+   border: 2px solid red ;
+   margin: 10px auto;
 }
