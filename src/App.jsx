@@ -26,9 +26,9 @@ function App() {
          ))}
          </section>
         <section>
-        {!isEmpty(users)&&users.map((auth, index)=>(
-        <Autheur user={auth} key={index}/>
-        ))}
+        
+        <Autheur user={users} />
+        
         </section>
         </section>
        

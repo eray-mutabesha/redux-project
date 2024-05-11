@@ -2,11 +2,13 @@
   "post": [
     {
       "titre": "actualite du jours",
-      "post": "exercitationem nostrum quaerat atque nobis beatae nemo perspiciatis exercitationem nostrum quaerat atque nobis beatae nemo perspiciatis totam.totam.exercitationem nostrum quaerat atque nobis beatae nemo perspiciatis totam.exercitationem nostrum quaerat atque nobis beatae nemo perspiciatis totam."
+      "post": "exercitationem nostrum quaerat atque nobis beatae nemo perspiciatis exercitationem nostrum quaerat atque nobis beatae nemo perspiciatis totam.totam.exercitationem nostrum quaerat atque nobis beatae nemo perspiciatis totam.exercitationem nostrum quaerat atque nobis beatae nemo perspiciatis totam.",
+      "id": "8ecb"
     },
     {
       "titre": "Nouveau",
-      "post": "exeostrum quaerat atqueuaerat atque neciatis totam."
+      "post": "exeostrum quaerat atqueuaerat atque neciatis totam.",
+      "id": "1a97"
     },
     {
       "id": "2c73",
@@ -19,13 +21,20 @@
       "titre": "article encore",
       "post": "salut de nouveaux les ndeko",
       "likes": 0
+    },
+    {
+      "id": "ae6f",
+      "titre": "actualite du jour",
+      "post": "hello good people",
+      "likes": 0
     }
   ],
   "user": [
     {
       "username": "Robert du bois",
       "age": "21",
-      "Like": 35
+      "Like": 35,
+      "id": "1774"
     }
   ]
 }
