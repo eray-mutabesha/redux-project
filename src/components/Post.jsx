@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 
 const Post=({post})=> {
-const [editpost,setEditpost]=useState(false)
+
 
   return (
    
