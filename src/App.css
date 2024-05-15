@@ -8,7 +8,6 @@ form input,form textarea{
     margin: 10px;
     outline: none;
     border: 2px solid rgba(0, 0, 0, 0.315);
-    /* border: none; */
 }
 form input{
     padding: 5px;
@@ -40,12 +39,18 @@ form input{
     height: 100px;
 }
 .elements{
-    border: 1px solid green;
-    display: grid;
-    grid-template-columns: 70% 20%;
+    
+    display: flex;
+    justify-content: center;
   
 }
+.post_section{
+ width: 60%;
+}
+.autheur_section{
+
+}
 .elements section{
-   border: 2px solid red ;
-   margin: 10px auto;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -27,6 +27,18 @@
       "titre": "actualite du jour",
       "post": "hello good people",
       "likes": 0
+    },
+    {
+      "id": "b18b",
+      "titre": "salut la famille",
+      "post": "hello",
+      "likes": 0
+    },
+    {
+      "id": "0111",
+      "titre": "bonjour",
+      "post": "hello",
+      "likes": 0
     }
   ],
   "user": [

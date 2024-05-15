@@ -19,13 +19,13 @@ function App() {
        <Form/>
       <section className='all_sections'>
         <section className='elements'>
-          <section>{!isEmpty(posts)&&posts.map((post, index)=>(
+          <section className='post_section'>{!isEmpty(posts)&&posts.map((post, index)=>(
             
-        <Post post={post} key={index}/>
+            <Post post={post} key={index}/>
         
          ))}
          </section>
-        <section>
+        <section className='autheur_section'>
         
         <Autheur user={users} />
         
